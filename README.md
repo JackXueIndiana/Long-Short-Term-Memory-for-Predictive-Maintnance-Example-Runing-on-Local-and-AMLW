@@ -24,3 +24,12 @@ In this location: C:\Users\<your root dir>\.keras, you will find a file keras.js
     "backend": "cntk",
     "image_data_format": "channels_last"
 }
+
+In AMLW, you go from File > Open Command Prompt, then a DOS prompt will be opened and pointed to your AMLW installed folder. IN the DOS prompt, you can run the same commands:
+
+pip install keras
+pip install cntk
+
+The good news is you don't need to change any config file, you will automatically get cntk as your DLN backend.
+
+
